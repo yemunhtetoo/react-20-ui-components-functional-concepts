@@ -14,6 +14,9 @@ import TabTest from './Components/custom-tabs/tab-test';
 import ModalTest from './Components/custom-model-popup/modal-test';
 import GitHubProfileFinder from './Components/github-profile-finder';
 import SearchAutocomplete from './Components/search-autocomplete-with-api';
+import TicTacToe from './Components/tic-tac-toe';
+import FeatureFlagGlobalState from './Components/feature-flag/context';
+import FeatureFlag from './Components/feature-flag';
 export default function AccordionLists(){
    return (
     <div className='App'>
@@ -54,7 +57,15 @@ export default function AccordionLists(){
       {/* <GitHubProfileFinder /> */}
 
       {/* Search AutoComplete with API */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tic-Tac-Toe */}
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag */}
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </div>
    );
     

@@ -33,10 +33,10 @@ export default function Accordion() {
                             </div>
                             {enableMultiSelection ?
                                 multiple.indexOf(dataItem.id) !== -1 && (
-                                <div className="content">{dataItem.answer}</div>
+                                <div className="accordian-content">{dataItem.answer}</div>
                                  ) 
                                  : selection === dataItem.id && (
-                                 <div className="content">{dataItem.answer}</div>
+                                 <div className="accordian-content">{dataItem.answer}</div>
                                  )}
                             {/* {
                                 selection === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ? (<div className="content">{dataItem.answer}</div>) : null
