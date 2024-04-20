@@ -20,6 +20,8 @@ import FeatureFlag from './Components/feature-flag';
 import UseFetchHookTest from './Components/use-fetch/test';
 import UseOnclickOutSideTest from './Components/use-outside-click';
 import UseWindowResize from './Components/use-window-resize/test';
+import ScrollToTopAndBottom from './Components/scroll-to-top-and-bottom';
+import ScrollToSection from './Components/scroll-to-top-and-bottom/scroll-to-section';
 export default function AccordionLists(){
    return (
     <div className='App'>
@@ -77,7 +79,13 @@ export default function AccordionLists(){
       {/* <UseOnclickOutSideTest /> */}
 
       {/* Use Window resize hook test */}
-      <UseWindowResize />
+      {/* <UseWindowResize /> */}
+
+      {/* Scroll To Top to Bottom */}
+      {/* <ScrollToTopAndBottom /> */}
+
+      {/* Scroll To a particular section */}
+      <ScrollToSection />
     </div>
    );
     
