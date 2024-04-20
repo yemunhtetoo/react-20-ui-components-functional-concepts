@@ -3,7 +3,8 @@ const dummyApiResponse = {
     showTicTacToeBoard: true,
     showRandomColorGenerator: true,
     showAccordian: true,
-    showTreeView: true
+    showTreeView: true,
+    showCustomTab: true,
 }
 
 function featureFlagDataServiceCall(){

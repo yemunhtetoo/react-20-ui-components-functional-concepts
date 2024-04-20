@@ -6,6 +6,7 @@ import TicTacToe from "../tic-tac-toe"
 import TreeView from "../tree-view"
 import { FeatureFlagsContext } from "./context"
 import menus from "../tree-view/data"
+import TabTest from "../custom-tabs/tab-test"
 
 export default function FeatureFlag(){
     const {loading,enableFlag} = useContext(FeatureFlagsContext);
@@ -30,6 +31,10 @@ export default function FeatureFlag(){
             key: 'showTreeView',
             component: <TreeView menus={menus} />
         },
+        {
+            key: 'showCustomTab',
+            component: <TabTest />
+        }
     ];
 function checkEnabledFlags(getCurrentKey){
     return enableFlag[getCurrentKey];

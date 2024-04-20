@@ -17,6 +17,9 @@ import SearchAutocomplete from './Components/search-autocomplete-with-api';
 import TicTacToe from './Components/tic-tac-toe';
 import FeatureFlagGlobalState from './Components/feature-flag/context';
 import FeatureFlag from './Components/feature-flag';
+import UseFetchHookTest from './Components/use-fetch/test';
+import UseOnclickOutSideTest from './Components/use-outside-click';
+import UseWindowResize from './Components/use-window-resize/test';
 export default function AccordionLists(){
    return (
     <div className='App'>
@@ -62,10 +65,19 @@ export default function AccordionLists(){
       {/* Tic-Tac-Toe */}
       {/* <TicTacToe /> */}
 
-      {/* Feature Flag */}
-      <FeatureFlagGlobalState>
+      {/* Feature Flag with context */}
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+      {/* UseFetch Custom Hook */}
+      {/* <UseFetchHookTest /> */}
+
+      {/* Use Onclick outside Hook test */}
+      {/* <UseOnclickOutSideTest /> */}
+
+      {/* Use Window resize hook test */}
+      <UseWindowResize />
     </div>
    );
     
