@@ -22,6 +22,7 @@ import UseOnclickOutSideTest from './Components/use-outside-click';
 import UseWindowResize from './Components/use-window-resize/test';
 import ScrollToTopAndBottom from './Components/scroll-to-top-and-bottom';
 import ScrollToSection from './Components/scroll-to-top-and-bottom/scroll-to-section';
+import Weather from './Components/weather-app/components/weather';
 export default function AccordionLists(){
    return (
     <div className='App'>
@@ -85,7 +86,10 @@ export default function AccordionLists(){
       {/* <ScrollToTopAndBottom /> */}
 
       {/* Scroll To a particular section */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* Weather App */}
+      <Weather />
     </div>
    );
     
