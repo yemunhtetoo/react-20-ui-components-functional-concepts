@@ -87,9 +87,6 @@ export default function AccordionLists(){
 
       {/* Scroll To a particular section */}
       {/* <ScrollToSection /> */}
-
-      {/* Weather App */}
-      <Weather />
     </div>
    );
     
